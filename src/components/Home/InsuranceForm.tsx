@@ -85,7 +85,7 @@ const InsuranceOptions = () => {
   return (
     <div className="flex-col flex items-center justify-center">
       <div className="w-full max-w-4xl">
-        <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
+        <div className="bg-gray-100 rounded-2xl shadow-xl overflow-hidden">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-700 p-6 text-white">
             <h1 className="text-2xl md:text-3xl font-bold">
               Find Your Ideal Medical Insurance
