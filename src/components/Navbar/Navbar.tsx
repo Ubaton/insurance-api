@@ -45,9 +45,9 @@ export default function Navbar({ className }: { className?: string }) {
         </MenuItem>
         <MenuItem setActive={setActive} active={active} item="Legal">
           <div className="flex flex-col space-y-4 text-sm">
-            <HoveredLink href="/about">Terms & Conditions</HoveredLink>
-            <HoveredLink href="/missions">Privacy Policy</HoveredLink>
-            <HoveredLink href="/careers">Disclosures</HoveredLink>
+            <HoveredLink href="/terms-conditions">Terms & Conditions</HoveredLink>
+            <HoveredLink href="/privacy-policy">Privacy Policy</HoveredLink>
+            <HoveredLink href="/disclosures">Disclosures</HoveredLink>
           </div>
         </MenuItem>
       </Menu>

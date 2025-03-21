@@ -7,6 +7,7 @@ import {
 import axios from "axios";
 import { Insurance } from "../../types/insurance";
 import { useRouter } from "@tanstack/react-router";
+import { FlipWords } from "../ui/FlipWords";
 
 // Set base URL for axios requests
 axios.defaults.baseURL = "http://localhost:5000";
@@ -82,13 +83,15 @@ const InsuranceOptions = () => {
     }
   };
 
+  const words = ["Medical", "Life", "Health", "Travel", "Home", "Auto", "Pet"];
+
   return (
     <div className="flex-col flex items-center justify-center">
       <div className="w-full max-w-4xl">
         <div className="bg-gray-100 rounded-2xl shadow-xl overflow-hidden">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-700 p-6 text-white">
             <h1 className="text-2xl md:text-3xl font-bold">
-              Find Your Ideal Medical Insurance
+              Find Your Ideal<span><FlipWords words={words}/></span>Insurance.
             </h1>
             <p className="mt-2 opacity-90">
               Enter your details below to discover the best coverage options for
