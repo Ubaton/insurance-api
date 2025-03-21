@@ -12,7 +12,7 @@ function Index() {
   return (
   <div className="flex flex-col pt-20 p-4 items-center bg-gray-900 min-h-screen w-full space-y-8">
     <NavbarMenu />
-    <div className="pl-36 pr-36 p-4">
+    <div className="pl-36 pr-36 p-4 pt-12">
       <TextGenerate/>
     </div>
     <InsuranceOptions />
